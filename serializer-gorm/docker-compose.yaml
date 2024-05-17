@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: root_pwd
+      MYSQL_USER: test
+      MYSQL_PASSWORD: test_pwd
+      MYSQL_DATABASE: serializer
+    ports:
+      - "3306:3306"
