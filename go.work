@@ -3,5 +3,6 @@ go 1.21.6
 use (
     ./websocket 
     ./serializer-gorm 
-    ./decorator
+    ./decorator_pattern
+    ./builder_pattern
 )
